@@ -24,6 +24,7 @@
                             name="email"
                             id="email"
                             placeholder="Email girin"
+                            required
                         />
                     </th>
                 </tr>
@@ -36,11 +37,29 @@
                             name="şifre"
                             id="sifre"
                             placeholder="Şifre girin"
+                            required
+                            minlength="8"
+                            maxlength="20"
+
                         />
                     </th>
                 </tr>
 
                 <tr>
+                    <th><label for="ss">Security Site Code</label></th>
+                    <th>
+                        <input
+                            type="number"
+                            name="ss"
+                            id="ss"
+                            placeholder="Güvenlik kodu girin"
+                            value="1000"
+                            readonly
+                        required
+                        />
+                    </th>
+                </tr>
+<tr>
                     <th><label for="sc">Security Code</label></th>
                     <th>
                         <input
@@ -48,6 +67,10 @@
                             name="sc"
                             id="sc"
                             placeholder="Güvenlik kodu girin"
+                            min="1"
+                            max="9999999999999999999999999f"
+                            readonly
+                        required
                         />
                     </th>
                 </tr>
@@ -56,11 +79,12 @@
                     <tr>
                         <th colspan="2">
                             <button type="reset">Reset</button>
-                            <button type="submit">Save</button>
+                            <button type="submit" style="width: 100;">login</button>
                         </th>
                     </tr>
                 </tfoot>
             </table>
         </form>
     </body>
+    <!-- ödev olarak yaptım baya iyi oldu 15dk falan sürdü -->
 </html>
