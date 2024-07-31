@@ -1,0 +1,19 @@
+/* list style options */
+
+
+.ordered-list{
+    list-style-type: lower-greek;
+}
+.un{    list-style-type: decimal-leading-zero; }
+ 
+.on{
+    list-style-position:inside;
+    list-style-type: "🫡";
+    text-align: center;
+}
+.ol{
+    list-style: none;
+}
+.o{
+    list-style-image: url("../img/apple.svg");
+}

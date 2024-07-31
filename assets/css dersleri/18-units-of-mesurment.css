@@ -1,0 +1,17 @@
+html {
+
+height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.a{
+    width: 80%;
+height: 50%;
+background-color: red;
+}
+h1{
+    color: blue;
+}
