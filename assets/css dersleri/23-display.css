@@ -1,0 +1,52 @@
+
+
+
+.anchor{
+    /* display =inline = padding work regartless margin only work horizontal widht and height not work */
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    /*padding: 10px;*/
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.box{
+    background-color: red;
+margin: 10px;
+padding: 10px;
+width: 100px;
+
+height: 100px;}
+.inlinebox{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.hidden{
+    display: none;
+    background-color: aqua;
+
+}
+.flex {
+    width: 100px;
+    height: 100px;
+     background-color: salmon;
+     margin: 10px;
+     padding: 10px;
+
+}
+.cont{
+    display: flex;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: red;
+}
