@@ -32,7 +32,7 @@
     color: red;
 }
 .list2 li:nth-child(odd){
-    color: blue} 
+    color: blue} f
 
     .list2 li:nth-child(even){
         color:green;
