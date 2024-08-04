@@ -1,0 +1,73 @@
+html{
+    background-color: black;
+}
+p{
+    color: white;
+    text-align: right;
+    display: flex;
+}
+
+
+.a{
+    display: block;
+    color: red;
+}
+.a:hover{
+    color: blue;
+    font-size: 100px;
+}
+.a:active{
+    color: blueviolet;
+}
+.bx{
+    content: "dokun bana";
+    color: white;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    padding-top: 16px;
+    padding-left: 16px;
+    
+}
+.bxa{
+    
+    background-color: blue; 
+    display: inline-block;
+   
+    height: 200px;
+    width: 200px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: auto;
+}
+.bx:hover{
+    padding-top: 16px;
+    
+    background-color: deeppink;
+    content: hidden;
+    height: 1000px;
+    width: 1000px;
+}
+.bxa:hover{
+    background-color:red ;
+    width: 500px;
+    height: 500px;
+}
+.bxb{
+    display: hidden;
+    background-color: black;
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 200px;
+    width: 200px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: auto;
+}
+.bxb:hover{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
