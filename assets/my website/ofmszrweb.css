@@ -41,7 +41,7 @@ a{
     margin-top: 10px;
     margin-left: 5px;
     width: 100px;
-    padding-top: 5px;
+    padding-top: 10px;
     height: 25px;
     text-align: center;
     
@@ -51,13 +51,10 @@ ul{
 }
 .a{
     display: inline-block;
-    border: 2px green;
-    t
     
 }
 li{
-    display: inline;
-    border: 2px green;
+    display: inline ;  
 }
 .d{
     padding-left: 50px;
