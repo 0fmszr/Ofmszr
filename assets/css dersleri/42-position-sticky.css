@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 20px 0;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid;
+    z-index: 1;
+}
