@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.banner {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.product {
+    /* background-color: red; */
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: 1s;
+    --left: 0px;
+    display: flex;
+}
+
+.soda {
+    background: var(--bg) var(--left) 0, url(/images/soda-can-smaller.png);
+    background-size: auto 100%;
+    width: 280px;
+    /* height: 400px; */
+    aspect-ratio: 1 / 2;
+    background-blend-mode: multiply;
+    /* removing the areas outside of the background image that belongs to overlapping image */
+    mask-image: url(/images/soda-can-smaller.png);
+    mask-size: auto 100%;
+    transition: 1s;
+    /* putting two images on each other */
+    position: absolute;
+    /* center the element */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product:hover {
+    --left: -600px;
+    transform: translateX(-50%) translateY(-120px);
+}
+
+.product .soda:nth-child(2) {
+    opacity: 0;
+}
+
+.product:hover .soda:nth-child(2) {
+    opacity: 1;
+}

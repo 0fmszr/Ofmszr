@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ==================== TOPBAR ==================== */
+
+.topbar {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.topbar p {
+    font-size: 20px;
+}
+
+.topbar_button-container {
+    display: flex;
+}
+
+.topbar_button-container button {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+}
+
+.topbar button:first-of-type {
+    border-right: 1px solid white;
+}
+
+/* ==================== NAVBAR ==================== */
+
+.navbar {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.navbar_logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.navbar_logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navbar_menu a {
+    border-right: 1px solid black;
+    padding: 5px 10px;
+}
+
+.navbar_menu li:last-of-type a {
+    border-right: none;
+}
+
+/* ==================== BANNER ==================== */
+
+.banner-container {
+    height: 500px;
+    background-image: url('../images/bg.jpg');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container h1 {
+    color: white;
+    font-size: 5vw;
+}
+
+.slider_buttons-container {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-slide {
+    background-color: white;
+    height: 15px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-slide.active {
+    background-color: orange;
+}
+
+/* ==================== LOREM CONTENT ==================== */
+
+.lorem-content {
+    padding: 30px;
+    text-align: justify;
+}
+
+/* ==================== WHATSAPP ==================== */
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.whatsapp-icon {
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.paragraph {
+    margin: 20px;
+    text-align: justify;
+    font-size: 10px;
+}
+
+@media print {
+    img {
+        display: none;
+    }
+
+    .paragraph {
+        color: blue;
+    }
+}
+
+/* min-width => apply the following styles after/bigger the value given */
+@media (min-width: 1000px) {
+    .paragraph {
+        font-size: 20px;
+    }
+}
+
+/* max-width => apply the following styles before/smaller the value given */
+@media (max-width: 1000px) {
+    .paragraph {
+        color: red;
+    }
+}
