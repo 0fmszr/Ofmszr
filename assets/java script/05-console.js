@@ -16,3 +16,4 @@ console.log(firtName);
 console.warn(LastName);
 console.error($age);
 console.groupEnd();
+console.table(['apple', "orange" , "banana"])
