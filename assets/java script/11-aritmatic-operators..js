@@ -1,5 +1,5 @@
 //addition
-//Adding number + number
+//Adding number + number= number
 
 
 const EggPrice = 3 ;
@@ -8,14 +8,15 @@ const MeatPrice = 12 ;
 const TotalPrice = EggPrice + CheseePrice + MeatPrice ;
 console.log("expense: $ " , TotalPrice);
 
-// addding number + string
+// addding number + string= string
 
 const x =5;
 const y ="4";
 const z = x + y ;
 console.log(z)
 
-// adding string + string
+// adding string + string= string
 const word = "hello";
-const oword = "word";
-console.log(word , oword);
+const oword = " word";
+const aword = word + oword ;
+console.log(aword)
