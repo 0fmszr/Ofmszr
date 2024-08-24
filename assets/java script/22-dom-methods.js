@@ -12,4 +12,4 @@ console.log(pEl.innerText)
 const liEl = document.querySelector(".li")
 
 //-------------------------------
-console.log
+console.log(pEl.textContent)
