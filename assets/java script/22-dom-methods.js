@@ -13,3 +13,4 @@ const liEl = document.querySelector(".li")
 
 //-------------------------------
 console.log(pEl.textContent)
+console.log(pEd.innerText)
