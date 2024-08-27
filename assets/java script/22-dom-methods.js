@@ -9,8 +9,14 @@ h2EL.innerHTML ="EYYOOO0<em> OO </em>";
 const pEl =document.querySelector("p")
 console.log(pEl.innerHTML)
 console.log(pEl.innerText)
-const liEl = document.querySelector(".li")
+const liEl = document.querySelector(".list")
 
 //-------------------------------
 console.log(pEl.textContent)
-console.log(pEd.innerText)
+liEl.innerHTML=`
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+`
+
