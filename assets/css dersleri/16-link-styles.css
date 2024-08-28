@@ -1,0 +1,19 @@
+a:link{ color: red;}
+h1{
+    color: blue;
+}
+a:visited{
+    color: yellowgreen;
+}
+.hover-anchor:hover{
+    color: blueviolet;
+}
+p{
+    color: bisque;
+}
+p:hover{
+    color: darkorange;
+}
+.active:active{
+    color: blue;
+}

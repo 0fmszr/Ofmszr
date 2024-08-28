@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img-c{
+    border: 15px solid orange;
+    background-image: url(../img/Crxx3869jilR4IO0EtEZuINPWeiSySm0MZlhCaI29bg.webp);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: center ;
+    background-size: cover
+;
+}
+p{
+    opacity: 1;
+}
+.cont-i{
+    width: 100%;
+    height: 300px;
+    border: 10px solid blue;
+    margin: 50px 0;
+    background-image: url(../img/artworks-g3MFxExFY8iclp9B-47Dv2w-t500x500.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}

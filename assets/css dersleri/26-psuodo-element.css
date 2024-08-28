@@ -1,0 +1,42 @@
+h1{color: red
+    ;}
+.paragraf1::first-letter{
+        font-size: 50px;
+        font-style: italic;
+        background-color: blue;
+    }
+.paragraf2::first-line{
+    font-size: 20px;
+    font-style: bold;
+    background-color: aqua;
+
+}
+.heading2::selection{
+    background-color: black;
+    color: white;
+  
+}
+.box1, .box2{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.box1::after{
+    content: "this is a box";
+color: white;
+font-size: 20px;
+margin: 10px; 
+background-color: black;
+padding: 10px;
+display: inline-block;
+}
+.box2::before{
+    content: "this is a box";
+color: white;
+font-size: 20px;
+margin: 10px; 
+background-color: black;
+padding: 10px;
+display: inline-block;
+}

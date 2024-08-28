@@ -1,0 +1,37 @@
+html {
+
+height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.a{
+    width: 80%;
+height: 50%;
+background-color: red;
+}
+h1{
+    color: blue;
+}
+.b{
+    
+    width:50vw ;
+    height: 25%;
+    /*width: 75%;*/
+    background-color: blue;
+}
+.font{
+    font-size: 40px;
+}
+.font2{
+    font-size: 2em;
+}
+/* em burdaki 40px i 2 ile çarpıp 80 px font olusturuyor*/
+.font1{
+    font-size: 2rem;
+}
+:root{
+    font-size: 42px;
+}

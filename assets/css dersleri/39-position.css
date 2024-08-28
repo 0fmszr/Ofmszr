@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 20px 0;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cont{
+    height: 700px;
+    background-color: bisque;
+    border: 5px solid white;
+    position: relative;
+}
+.box{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.box1{ 
+    bottom: 50px;
+    right: 50px;
+    position: relative;
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    left: 50px;
+}
+.box3{
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,10 @@
+.container{
+    background-color: darkgrey;
+    height: 500px;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 400px;
+    margin: 0 0 0 auto;
+}

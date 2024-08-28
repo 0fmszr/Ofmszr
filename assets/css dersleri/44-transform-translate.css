@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* transform: translateX(100px) translateY(100px); */
+    transform: translate(100px, 100px);
+}
+
+.box-fixed {
+    position: fixed;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    /* transform: translateX(-50%) translateY(-50%); */
+    transform: translate(-50%, -50%);
+}

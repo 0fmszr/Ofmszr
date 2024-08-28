@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.border {
+    width: 400px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin: 30px auto;
+}
+
+.border1 {
+    /* border-width: 5px; */
+    /* border-style: solid; */
+    /* border-color: red; */
+    border: 5px solid red;
+}
+
+.border2 {
+    border: 10px dashed blue;
+}
+
+.border3 {
+    border: 5px dotted greenyellow;
+}
+
+.border4 {
+    border-top: 10px solid purple;
+    border-right: 10px solid violet;
+    border-left: 10px solid brown;
+    border-bottom: 10px solid black;
+}
+
+.border5 {
+    background-color: lightcoral;
+    /* rounded element */
+    /* border-radius: 50%; */
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.border6 {
+    background-color: transparent;
+    border: 10px solid purple;
+    border-radius: 30px;
+}

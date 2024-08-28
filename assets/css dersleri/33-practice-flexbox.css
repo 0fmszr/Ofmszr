@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: rgb(74, 74, 74);
+    height: 90vh;
+    display: flex;
+}
+
+.yellow-box {
+    background-color: yellow;
+    flex-grow: 3;
+}
+
+.beige-box {
+    background-color: beige;
+    flex-grow: 2;
+}
+
+.red-box {
+    background-color: red;
+    flex-grow: 4;
+}

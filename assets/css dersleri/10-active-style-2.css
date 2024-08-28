@@ -1,0 +1,11 @@
+.title{ color: red;}
+h1{
+    color: gold;
+}
+
+h1.title{
+    color:purple
+}
+*{
+    color: green;
+}

@@ -1,0 +1,46 @@
+
+body{ 
+
+background-color: skyblue;
+
+}
+.bas{
+    color: red;
+    background-color: aliceblue
+    ;
+
+   
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;;
+    
+    
+}
+.troll{
+    text-align: center;
+    width: 100;
+
+}
+.real{ color: black;
+
+
+}
+.col{
+text-align: end;
+color: rebeccapurple;
+
+}
+.video{
+    border: 3;
+    border-color: red;
+    text-align: center;
+}
+.hope{
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: 700;
+
+}

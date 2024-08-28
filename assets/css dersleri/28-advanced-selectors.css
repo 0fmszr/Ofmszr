@@ -1,0 +1,9 @@
+.in p{
+    color: blue;
+}
+.in > .menu-item{
+    color:red;
+}
+.out > .menu-item{
+    font-size: 40px;
+}

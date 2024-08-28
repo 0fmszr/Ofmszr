@@ -1,0 +1,26 @@
+.text{
+    color: purple;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: dotted underline red;
+    font-style: italic;
+
+
+}
+a{
+    
+    color: rgb(111, 110, 111);
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: wavy underline;
+    text-decoration-color:blue ;
+}
+.test
+{
+text-decoration-line: overline;
+text-decoration-color:red ;
+text-decoration-style: double ;
+    color: white;
+    background-color:black;
+}
