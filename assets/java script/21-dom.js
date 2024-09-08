@@ -6,3 +6,5 @@ const h1EL = document.querySelector("h1");
 console.log(h1EL);
 const alllistEL = document.querySelectorAll(".list");
 console.log(alllistEL)
+console.log("documenent" , document)
+console.log(window.document)
