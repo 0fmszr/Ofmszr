@@ -1,0 +1,1 @@
+console.log("37-ternary-practise.js is working")
