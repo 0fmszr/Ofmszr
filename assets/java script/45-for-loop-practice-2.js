@@ -1,0 +1,1 @@
+console.log("45-for-loop-practice-2.js is working man")
