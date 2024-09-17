@@ -1,0 +1,1 @@
+console.log("47-while-loop.js is working")
