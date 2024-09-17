@@ -1,0 +1,1 @@
+console.log("42-nullish-practice.js is working")
