@@ -1,1 +1,0 @@
-console.log("49-factoriel-practice.js is working bro")
